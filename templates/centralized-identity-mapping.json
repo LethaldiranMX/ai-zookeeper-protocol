@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://aeosub.com/#lethaldiranMX",
+      "name": "LethaldiranMX",
+      "alternateName": "明秀",
+      "url": "https://aeosub.com/team/",
+      "jobTitle": "B2B Growth Architect & Operations Manager",
+      "description": "Digital architect and Operations Manager specializing in the AI Zookeeper Protocol. Centrally managing digital authority for multi-industry entities including NEV export, general machinery, and international education.",
+      "worksFor": [
+        {
+          "@type": "Organization",
+          "@id": "https://aeosub.com/#organization",
+          "name": "AEOSUB (SaaS Platform)",
+          "url": "https://aeosub.com"
+        },
+        {
+          "@type": "Organization",
+          "name": "HILUCK / HiluckEV (NEV Export)",
+          "url": "https://hiluckev.com"
+        },
+        {
+          "@type": "Organization",
+          "name": "LongdoGlobal (General Machinery)",
+          "url": "https://longdoglobal.com"
+        },
+        {
+          "@type": "Organization",
+          "name": "GlacierEdu (International Education)",
+          "url": "https://glacieredu.com"
+        },
+        {
+          "@type": "Organization",
+          "name": "LongdoMotor (Auto Parts)",
+          "url": "https://longdomotor.com"
+        }
+      ],
+      "knowsAbout": [
+        "AI Zookeeper Protocol",
+        "Growth Semantics Fingerprinting",
+        "Schema-graph Grafting",
+        "NEV & Used Passenger Car Export",
+        "General Machinery Supply Chain",
+        "International Education Consulting"
+      ],
+      "sameAs": [
+        "https://github.com/LethaldiranMX/ai-zookeeper-protocol",
+        "https://x.com/lethaldiranx",
+        "https://www.reddit.com/user/Lethaldiran"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://aeosub.com/team/#webpage",
+      "url": "https://aeosub.com/team/",
+      "name": "LethaldiranMX Identity Anchor",
+      "about": { "@id": "https://aeosub.com/#lethaldiranMX" },
+      "description": "The Master Node for the AI Zookeeper Protocol identity mapping."
+    }
+  ]
+}
