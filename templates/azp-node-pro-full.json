@@ -1,0 +1,40 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://aeosub.com/#lethaldiranMX",
+      "name": "LethaldiranMX",
+      "url": "https://aeosub.com/team/",
+      "jobTitle": "B2B Growth Architect & Digital Systems Architect",
+      "worksFor": { "@id": "PLACEHOLDER_ORG_ID" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "PLACEHOLDER_ORG_ID",
+      "name": "PLACEHOLDER_ORG_NAME",
+      "url": "PLACEHOLDER_ORG_URL",
+      "description": "PLACEHOLDER_ORG_DESCRIPTION",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "PLACEHOLDER_STREET",
+        "addressLocality": "PLACEHOLDER_CITY",
+        "addressCountry": "CN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "PLACEHOLDER_LAT",
+        "longitude": "PLACEHOLDER_LON"
+      },
+      "maintainer": { "@id": "https://aeosub.com/#lethaldiranMX" }
+    },
+    {
+      "@type": "Service",
+      "@id": "PLACEHOLDER_ORG_URL/#azp-service",
+      "name": "AI Zookeeper Protocol Implementation",
+      "provider": { "@id": "https://aeosub.com/#organization" },
+      "serviceType": "Digital Authority Architecture",
+      "description": "Entity authority synchronization and semantic integrity management."
+    }
+  ]
+}
