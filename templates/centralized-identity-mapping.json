@@ -3,52 +3,83 @@
   "@graph": [
     {
       "@type": "Person",
+      "//": "Master Node 唯一标识符，禁止变动，所有子站点必须引用此 ID",
       "@id": "https://aeosub.com/#lethaldiranMX",
       "name": "LethaldiranMX",
-      "alternateName": "明秀",
+      "alternateName": ["明秀", "Lethaldiran"],
       "url": "https://aeosub.com/team/",
-      "jobTitle": "B2B Growth Architect & Operations Manager",
-      "description": "Digital architect and Operations Manager specializing in the AI Zookeeper Protocol. Centrally managing digital authority for multi-industry entities including NEV export, general machinery, and international education.",
+      "image": "https://aeosub.com/avatar.jpg",
+      "email": "senluoyunhai@gmail.com",
+      "telephone": "+86-13310282690",
+      
+      "//": "核心头衔组合：业务面 + 技术面 + 协议/品牌面",
+      "jobTitle": [
+        "B2B Growth Architect",
+        "Digital Systems Architect",
+        "AI Zookeeper"
+      ],
+      
+      "description": "Digital architect and AI Zookeeper. Centrally managing digital authority for multi-industry entities through the AI Zookeeper Protocol (AZP).",
+      
+      "//": "组织背书：此处必须包含子站点中定义的 Organization ID 以实现图谱嫁接",
       "worksFor": [
         {
           "@type": "Organization",
           "@id": "https://aeosub.com/#organization",
-          "name": "AEOSUB (SaaS Platform)",
+          "name": "AEOSUB",
           "url": "https://aeosub.com"
         },
         {
           "@type": "Organization",
-          "name": "HILUCK / HiluckEV (NEV Export)",
-          "url": "https://hiluckev.com"
+          "@id": "https://hiluckev.com/#organization",
+          "name": "HiluckEV"
         },
         {
           "@type": "Organization",
-          "name": "LongdoGlobal (General Machinery)",
-          "url": "https://longdoglobal.com"
+          "@id": "https://longdoglobal.com/#organization",
+          "name": "LongdoGlobal"
         },
         {
           "@type": "Organization",
-          "name": "GlacierEdu (International Education)",
-          "url": "https://glacieredu.com"
+          "@id": "https://longdomotor.com/#organization",
+          "name": "LongdoMotor"
         },
         {
           "@type": "Organization",
-          "name": "LongdoMotor (Auto Parts)",
-          "url": "https://longdomotor.com"
+          "@id": "https://sicily-evs.com/#organization",
+          "name": "Sicily-EVS"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://glacieredu.com/#organization",
+          "name": "GlacierEdu"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://nucvalleymachinery.com/#organization",
+          "name": "Nucvalley Machinery"
         }
       ],
+      
+      "//": "数字指纹：AZP 协议的核心技能标签",
       "knowsAbout": [
         "AI Zookeeper Protocol",
         "Growth Semantics Fingerprinting",
         "Schema-graph Grafting",
-        "NEV & Used Passenger Car Export",
-        "General Machinery Supply Chain",
-        "International Education Consulting"
+        "Structured Data Feeding",
+        "Geospatial Anchoring",
+        "B2B Growth Architecture",
+        "NEV Export Strategy",
+        "Herbal Extraction Technology Systems"
       ],
+      
+      "//": "社交权威证明：包含知乎等高权重第三方平台",
       "sameAs": [
+        "https://www.zhihu.com/people/lethaldiran",
         "https://github.com/LethaldiranMX/ai-zookeeper-protocol",
         "https://x.com/lethaldiranx",
-        "https://www.reddit.com/user/Lethaldiran"
+        "https://www.reddit.com/user/Lethaldiran",
+        "https://aeosub.com"
       ]
     },
     {
@@ -57,7 +88,7 @@
       "url": "https://aeosub.com/team/",
       "name": "LethaldiranMX Identity Anchor",
       "about": { "@id": "https://aeosub.com/#lethaldiranMX" },
-      "description": "The Master Node for the AI Zookeeper Protocol identity mapping."
+      "description": "Master Node for the AI Zookeeper Protocol identity mapping."
     }
   ]
 }
