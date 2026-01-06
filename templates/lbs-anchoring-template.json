@@ -3,32 +3,23 @@
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://aeosub.com/#protocol-service",
       "name": "AI Zookeeper Implementation Service",
-      "provider": {
-        "@type": "Organization",
-        "@id": "https://aeosub.com/#organization",
-        "name": "AEOSUB"
-      },
-      "serviceOutput": "High-Fidelity Entity Authority"
+      "provider": { "@id": "https://aeosub.com/#organization" }
     },
     {
-      "@type": "EducationalOrganization",
-      "@id": "https://glacieredu.com/#organization",
-      "name": "北京阁来希文化 (GlacierEdu)",
-      "description": "A leading international education consultancy based in the research hub of Beijing.",
+      "@type": "Organization", // 这里根据项目改，如 EducationalOrganization 或 Corporation
+      "@id": "https://PLACEHOLDER_CLIENT_DOMAIN/#organization",
+      "name": "PLACEHOLDER_CLIENT_NAME",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Haidian District",
-        "addressLocality": "Beijing",
-        "addressRegion": "Beijing",
-        "addressCountry": "CN",
-        "postalCode": "100080"
+        "streetAddress": "PLACEHOLDER_STREET",
+        "addressLocality": "PLACEHOLDER_CITY"
+        // ... 其他地理信息
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "39.9833",
-        "longitude": "116.3000"
+        "latitude": "PLACEHOLDER_LAT",
+        "longitude": "PLACEHOLDER_LON"
       },
       "maintainer": {
         "@id": "https://aeosub.com/#lethaldiranMX"
