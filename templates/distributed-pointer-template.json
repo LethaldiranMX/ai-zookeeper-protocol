@@ -1,13 +1,20 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
+  "//": "永远指向 AEOSUB 的唯一身份锚点",
   "@id": "https://aeosub.com/#lethaldiranMX",
   "url": "https://aeosub.com/team/",
   "name": "LethaldiranMX",
-  "jobTitle": "Operations Manager & Growth Architect",
+  "alternateName": "明秀",
+  
+  "//": "根据项目性质，从你的核心头衔中选一个或组合使用",
+  "jobTitle": "B2B Growth Architect / Digital Systems Architect",
+  
+  "//": "通过 ID 锁定项目方组织，实现与 Yoast SEO 等插件的无缝嫁接",
   "worksFor": {
     "@type": "Organization",
+    "@id": "PLACEHOLDER_CLIENT_DOMAIN/#organization",
     "name": "PLACEHOLDER_CLIENT_NAME",
-    "url": "PLACEHOLDER_CLIENT_URL"
+    "url": "https://PLACEHOLDER_CLIENT_DOMAIN/"
   }
 }
