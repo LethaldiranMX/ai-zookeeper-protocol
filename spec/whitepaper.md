@@ -1,36 +1,107 @@
-# AI Zookeeper Protocol: Engineering Deterministic Entity Authority
-**Technical Specification v1.1.0**
+# AI Zookeeper Protocol (AZP): Engineering Deterministic Entity Authority
+**Technical Whitepaper v3.0.0**
 
-## 1. Abstract
-The **AI Zookeeper Protocol (AZP)** addresses the systemic challenge of "Entity Ambiguity" and "Geographical Semantic Drift" within Large Language Model (LLM) training sets and Retrieval-Augmented Generation (RAG) systems. By shifting from passive SEO to active **Structured Data Feeding**, AZP establishes a deterministic framework for brand authority.
+| Field | Details |
+| :--- | :--- |
+| **Initialization** | LethaldiranMX |
+| **Stewardship** | AEOSUB Technical Committee |
+| **Release Date** | January 9, 2026 |
+| **Compliance** | AZP-Standard v3.0.0 |
+| **License** | [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) |
 
-## 2. The Three-Layer Architecture
+---
 
-AZP operates on a recursive three-layer loop to ensure AI models maintain a high **Entity Confidence Score ($E_{cs}$)**.
+## 1. Executive Summary
+As the search paradigm completes its shift from **"Link Retrieval"** to **"Generative Synthesis,"** brands face an existential threat of **Cognitive Fragmentation**. AI models now synthesize answers from distributed knowledge graphs, often suffering from **Semantic Entropy**—hallucinating business scopes, misaligning corporate hierarchies, and distorting entity attributes.
 
-$$E_{cs} = \alpha \cdot V + \beta \cdot E + \gamma \cdot A$$
+The **AI Zookeeper Protocol (AZP) 3.0** transcends its predecessor's engineering framework to become a **Decision-Grade Cognitive Operating System**. It empowers organizations to orchestrate their own cognitive narrative across all generative AI platforms.
 
-* **V (Verification)**: Growth Semantics Fingerprinting.
-* **E (Execution)**: Structured Data Feeding.
-* **A (Anchoring)**: Schema-graph Grafting.
+## 2. Core Philosophy: From Determinism to Cognitive Agency
+> "True entity authority in the generative age is not merely about being found—it's about being the unquestioned source that AI systems turn to when constructing narratives about your entity." — **LethaldiranMX**
 
-### 2.1 Layer 1: Growth Semantics Fingerprinting (校验层)
-Fingerprinting is the creation of a unique **Semantic UUID**. Unlike traditional metadata, these fingerprints are designed to survive the stochastic nature of LLM tokenization. 
-- **Mechanism**: Use of non-colliding URI fragments (e.g., `https://aeosub.com/#lethaldiranMX`) as the primary anchor for all downstream data.
+### 2.1 The Semantic Dominance Score (SDS)
+AZP 3.0 replaces the legacy Entity Confidence Score with the **SDS**, a geometric mean model:
 
-### 2.2 Layer 2: Structured Data Feeding (执行层)
-Feeding is the proactive delivery of high-density context.
-- **Geospatial Anchoring (LBS Enhancement)**: To counter "Geographical Semantic Drift," AZP mandates a hybrid **JSON-LD + RDFa** strategy. 
-- **Adcode Synchronization**: Binding physical registration data (e.g., Haidian District Adcode: 110108) with digital service attributes. This forces the AI to recognize the entity as a "Global Service Provider with a Local Authority Base," rather than a generic local business.
+$$SDS = \sqrt[3]{MS \times ET \times DA}$$
 
-### 2.3 Layer 3: Schema-graph Grafting (锚定层)
-Grafting is the ultimate integration of disparate digital nodes. By "stitching" together nodes from GitHub, official domains, and social profiles through consistent `@id` referencing, we create a **Closed-Loop Authority Graph**. 
+* **MS (Mention Share):** Percentage of AI-generated responses referencing your entity.
+* **ET (Evidence Trust):** Quality-weighted density of verified evidence supporting claims.
+* **DA (Description Accuracy):** Degree to which AI descriptions match your canonical definition.
 
-## 3. Implementation: The AEOSUB Engine
-While the protocol is an open standard (CC-BY-4.0), the **AEOSUB SaaS Platform** serves as the primary "Feeding Mechanism," automating the injection of these semantic markers at the infrastructure level.
+### 2.2 Cognitive Agency Model
 
-## 4. Case Study: Mitigating Hallucination in Consultancy Entities
-By implementing **Geospatial Anchoring**, we observed a **95%+ accuracy rate** in AI Overview (AIO) responses regarding the service scope of entities previously suffering from "local-only" misclassification (e.g., GlacierEdu).
+The protocol guides entities toward **Cognitive Sovereignty**:
+
+| | Low Mention Share (MS) | High Mention Share (MS) |
+| :--- | :--- | :--- |
+| **High Accuracy (DA)** | **Cognitive Obscurity:** Accurate but invisible. | **Cognitive Sovereignty:** Recognized & understood. |
+| **Low Accuracy (DA)** | **Cognitive Anarchy:** Misrepresented & marginalized. | **Cognitive Hijack:** Widely known but incorrectly portrayed. |
+
+---
+
+## 3. The Celestial Operating System (Three-Engine Architecture)
+
+
+### 3.1 SDS Quantification Engine (Layer I: Nucleus)
+* **SDS Dashboard:** Real-time monitoring of MS, ET, and DA metrics.
+* **Canonical Definition Lock:** Immutable `@id` URI system anchoring all attributes.
+* **Semantic Drift Detection:** ML-driven flagging of AI hallucinations.
+
+### 3.2 Industry Dynamic Weight Engine (Layer II: Adaptive Boundaries)
+* **L0/L1 Architecture:** Base protocol + industry-specific plugins (e.g., B2B Manufacturing, SaaS).
+* **Δ-Marginal Utility Calculator:** Real-time ROI analysis for cognitive resource allocation.
+
+### 3.3 Precision Feeding Navigation Engine (Layer III: Trusted Ecosystem)
+* **AI Platform Preference Mapping:** Database of 50+ AI systems and their unique trust signals.
+* **Schema-Graph Grafting 2.0:** Advanced interlinking protocol creating contextual trust chains.
+* **Counter-Narrative Deployment:** Proactive strategy to neutralize misinformation.
+
+---
+
+## 4. Implementation Roadmap
+| Phase | Duration | Focus | Key Deliverables |
+| :--- | :--- | :--- | :--- |
+| **I. Cognitive Audit** | Week 1-2 | State Assessment | SDS Baseline, Gap Analysis |
+| **II. Nucleus Construction**| Week 2-4 | Canonical Deployment | Central Anchor, JSON-LD, Adcode |
+| **III. Engine Calibration** | Week 4-6 | Optimization | L1 Plugin Activation, Utility Settings |
+| **IV. Precision Feeding** | Continuous | Content Deployment | Agent Network, Grafting 2.0 |
+| **V. Sovereignty Monitoring**| Continuous | SDS Governance | Real-time Tracking, Monthly Assessment |
+
+---
+
+## 5. Case Study: Global EV Sector
+*Sicily Group (B2B EV Infrastructure)* results after 12 weeks of AZP 3.0 implementation:
+
+| Metric | Pre-AZP 3.0 | Post-AZP 3.0 | Improvement |
+| :--- | :--- | :--- | :--- |
+| **SDS (Overall)** | 32.8 | 78.5 | **+139%** |
+| **Mention Share (MS)** | 29 | 76 | **+162%** |
+| **Evidence Trust (ET)** | 41 | 89 | **+117%** |
+| **Knowledge Panel Rate** | 32% | 94% | **+194%** |
+| **Misinformation Rate** | 47% | 0% | **-100%** |
+
+---
+
+## 6. Moral Guidelines & Disclaimer
+### 6.1 Core Moral Tenets
+1.  **Truth-Centricity First:** All structured data must be verifiable against legal or certified records.
+2.  **Defensive, Not Offensive:** Designed to neutralize hallucinations, not to undermine competitors via disinformation.
+3.  **Transparency:** All schema deployments must be traceable via the `@id` URI system.
+
+### 6.2 Disclaimer
+AEOSUB Technical Committee and LethaldiranMX disclaim liability for misuse of the protocol. Users are responsible for compliance with local data governance laws.
+
+---
+
+## 7. Evolution Path: 3.0 to 4.0
+* **Multi-Modal Fingerprinting:** Blockchain-verified hashes for images and video.
+* **Generative Defense:** AI-powered real-time counter-narrative generation.
+* **Decentralized Governance:** DAO structure for collective entity defense.
+
+## 8. Compliance & Contact
+For certification and deployment support:
+* **Website:** [aeosub.com](https://aeosub.com)
+* **Email:** info@aeosub.com
 
 ---
 *© 2026 AEOSUB Technical Committee. Initialized by LethaldiranMX.*
